@@ -1,0 +1,126 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(224 224 224);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+/* ********** amount box style ********** */
+.amount-box{
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    overflow: hidden;
+    box-shadow: 0 0 20px -5px #4444444a;
+}
+
+/* ********** top of amount box style ********** */
+.amount-box .top-box{
+    background-color: rgb(248, 248, 248);
+    padding: 55px 50px;
+}
+
+.amount-box .top-box .title{
+    font-size: 25px;
+    font-weight: 800;
+    color: hsl(180deg 59% 44%);
+    margin-bottom: 30px;
+}
+
+.amount-box .top-box .time{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(40, 240, 0);
+    margin-bottom: 25px;
+}
+
+.amount-box .top-box .description{
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(180deg 59% 44%);
+    line-height: 25px;
+}
+
+/* ********** bottom of amount box style ********** */
+.amount-box .bottom-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* ********** right of bottom box style ********** */
+.amount-box .bottom-box .right-box{
+    background-color: hsl(182deg 48% 52%);
+    padding: 40px 50px;
+    order: 2;
+}
+
+.amount-box .bottom-box .right-box .title-of-right{
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(248, 248, 248);
+    margin-bottom: 25px;
+}
+
+.amount-box .bottom-box .right-box .description-of-right li{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(248, 248, 248);
+    margin-bottom: 5px;
+}
+
+/* ********** left of bottom box style ********** */
+.amount-box .bottom-box .left-box{
+    background-color: hsl(180deg 59% 44%);
+    padding: 40px 50px;
+}
+
+.amount-box .bottom-box .left-box .title-of-left{
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(248, 248, 248);
+    margin-bottom: 20px;
+}
+
+.amount-box .bottom-box .left-box .price-box{
+    margin-bottom: 10px;
+}
+
+.amount-box .bottom-box .left-box .price-box h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(248, 248, 248);
+}
+
+.amount-box .bottom-box .left-box .price-box h3 span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.amount-box .bottom-box .left-box .description-of-left{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(248, 248, 248);
+    margin-bottom: 25px;
+}
+
+.amount-box .bottom-box .left-box .btn-signup a{
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background-color: rgb(106, 233, 80);
+    color: rgb(248, 248, 248);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 10px 9px -7px #3434344d;
+    transition: 0.2s;
+}
+
+.amount-box .bottom-box .left-box .btn-signup a:hover{
+    background-color: rgb(40, 240, 0);
+}

@@ -1,0 +1,98 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .container{
+        padding: 20px 0;
+        height: auto;
+    }
+
+    /* ********** amount box style ********** */
+    .amount-box{
+        width: 90%;
+        height: auto;
+        grid-template-rows: repeat(2, auto);
+    }
+
+    /* ********** top of amount box style ********** */
+    .amount-box .top-box{
+        padding: 30px 20px;
+    }
+
+    .amount-box .top-box .title{
+        font-size: 22px;
+        text-align: center;
+    }   
+    
+    .amount-box .top-box .time{
+        font-size: 13px;
+    }  
+    
+    .amount-box .top-box .description{
+        font-size: 13px;
+        line-height: 15px;
+    }    
+
+    /* ********** bottom of amount box style ********** */
+    .amount-box .bottom-box{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, auto);
+    }
+
+    /* ********** right of bottom box style ********** */
+    .amount-box .bottom-box .right-box{
+        background-color: hsl(182deg 48% 52%);
+        padding: 30px 20px;
+        order: 0;
+    }
+    
+    .amount-box .bottom-box .right-box .title-of-right{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* ********** left of bottom box style ********** */
+    .amount-box .bottom-box .left-box{
+        background-color: hsl(180deg 59% 44%);
+        padding: 30px 20px;
+    }
+ 
+    .amount-box .bottom-box .left-box .title-of-left{
+        text-align: center;
+        font-size: 20px;
+    }    
+
+    .amount-box .bottom-box .left-box .btn-signup a{
+        margin-bottom: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .container{
+        padding: 20px 0;
+        height: auto;
+    }   
+    
+    /* ********** amount box style ********** */
+    .amount-box{
+        width: 90%;
+        height: 95%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    /* ********** amount box style ********** */
+    .amount-box{
+        width: 95%;
+        height: 95%;
+    }    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    /* ********** amount box style ********** */
+    .amount-box{
+        width: 70%;
+        height: 95%;
+    }    
+}
